@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Saath - Family Local Guide",
+    "slug": "saath-family-guide",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "smartlocalassistant",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.saath.familyguide",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs access to your location to find nearby places.",
+        "NSLocationAlwaysUsageDescription": "This app needs access to your location to find nearby places."
+      },
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.saath.familyguide",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Saath to use your location to find family-friendly places near you."
+        }
+      ]
+    ],
+    "description": "Saath - Travel together with your family. Find family-friendly places, plan activities, and create lasting memories.",
+    "extra": {
+      "eas": {
+        "projectId": "6184dbd2-ee9e-4b09-b766-1bc952fd69d6"
+      }
+    },
+    "owner": "puspak1"
+  }
+}
