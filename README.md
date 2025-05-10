@@ -16,7 +16,7 @@ A family-friendly travel companion app that helps you discover and explore local
 
 ### Direct APK Installation
 
-1. Download the latest APK from the [Releases](https://github.com/AKing-283/Saath---Family-Tourist-guide/releases) page
+1. Download the latest APK from the [Releases](https://github.com/AKing-283/Saath-Family-Tourist-guide/releases) page
 2. Enable "Install from Unknown Sources" in your Android settings
 3. Install the APK file
 
