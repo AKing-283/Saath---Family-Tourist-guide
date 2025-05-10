@@ -61,8 +61,6 @@ The app requires the following permissions:
 
 For support, please:
 1. Open an issue in the GitHub repository
-2. Contact us at support@saath.com
-3. Visit our website: www.saath.com
 
 ## License
 
