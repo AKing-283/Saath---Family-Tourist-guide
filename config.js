@@ -1,7 +1,7 @@
 // Configuration file for API keys and constants
 // TODO: Replace these with your actual API keys
-export const GEMINI_API_KEY = 'AIzaSyDlpOB_ybUZmT2cyRPKjPCslfvJShW21hY';
-export const FOURSQUARE_API_KEY = 'fsq3PjZgKUDAYNTjo2edBgdTB5Tk2SfYEbmle8rqSePabn0=';
+export const GEMINI_API_KEY = 'Replace with your gemini api key';
+export const FOURSQUARE_API_KEY = 'Replace with your foursquare places api key';
 
 // Default location (will be overridden by user's location)
 export const DEFAULT_LOCATION = {
